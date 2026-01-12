@@ -1,0 +1,99 @@
+/* Configuración General con Fondo Tecnológico */
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #e6edf3;
+    background-color: #0d1117;
+    background-image: 
+        linear-gradient(rgba(31, 38, 46, 0.7) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(31, 38, 46, 0.7) 1px, transparent 1px);
+    background-size: 30px 30px;
+}
+
+header {
+    background: linear-gradient(135deg, #161b22 0%, #21262d 100%);
+    color: #ffffff;
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 4px solid #f1502f;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+h1 { margin: 0; font-size: 2.5rem; text-shadow: 0 0 15px rgba(241, 80, 47, 0.4); }
+
+.container {
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background: rgba(22, 27, 34, 0.95);
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+/* Sección de Profesor / Terminal */
+.info-profesor {
+    background: #000;
+    color: #00ff41;
+    padding: 1rem;
+    border-radius: 6px;
+    font-family: 'Courier New', monospace;
+    border-left: 4px solid #00ff41;
+    margin-bottom: 2rem;
+}
+
+/* Listado de Metodología */
+h2 { color: #f1502f; }
+ul { list-style: none; padding: 0; }
+ul li {
+    background: #1c2128;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #30363d;
+    transition: 0.3s;
+}
+ul li:hover { border-color: #f1502f; transform: translateX(5px); }
+
+/* SECCIÓN NUEVA: Consejos (Estilo Alerta) */
+.consejos {
+    background: rgba(241, 80, 47, 0.1);
+    border: 1px solid #f1502f;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+.consejos p {
+    white-space: pre-line; /* Esto respeta los saltos de línea de tu HTML */
+    font-weight: bold;
+    color: #ff7b72;
+}
+
+/* SECCIÓN NUEVA: Terminal de Comandos (CTA) */
+.cta {
+    background: #161b22;
+    border: 1px solid #484f58;
+    border-radius: 8px;
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.cta::before {
+    content: "bash — git terminal";
+    display: block;
+    background: #21262d;
+    margin: -1.5rem -1.5rem 1rem -1.5rem;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    color: #8b949e;
+    border-bottom: 1px solid #484f58;
+}
+.cta p {
+    font-family: 'Courier New', monospace;
+    color: #d1d5da;
+    white-space: pre-wrap;
+    margin: 0;
+}
+/* Resaltar comandos */
+.cta p::first-line { color: #79c0ff; }
