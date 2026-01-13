@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Git - FES Aragón</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Aprendiendo GIT</h1>
+        <p class="school">Facultad de Estudios Superiores Aragón</p>
+    </header>
+
+    <main class="container">
+        <section class="info-profesor">
+            <p><strong>Alumno:</strong> Alcantara Cruz Donovan Amaury</p>
+        </section>
+
+        <section class="metodologia">
+            <h2>Clase 2</h2>
+            <p>Conflictos: qué son, por qué pasan y cómo resolverlos sin pánico</p>
+            <ul>
+                <li>Provocar conflictos a propósito</li>
+                <li>Entender por qué pasan</li>
+                <li>Resolverlos a mano</li>
+                <li>Aprender buenas prácticas para evitarlos</li>
+            </ul>
+        </section>
+
+        <div class="Roles comunes">
+            <p>
+                Maintainer (o Integrador)
+                Developer / Contributor
+                Reviewer
+                Owner / Lead (opcional)
+                Release Manager (avanzado)
+            </p>
+        </div>
+
+        <div class="consejos">
+            <p>
+                main NO es tu espacio de trabajo<br>
+                Una rama = una persona = una responsabilidad<br>
+                Si no sabes en qué rama estás, DETENTE<br>
+                Nunca hagas commit sin revisar la rama<br>
+                Las ramas no son eternas, se crean y se borran<br>
+                Rompe cosas, pero solo en tu rama<br>
+                Antes de subir, revisa git status<br>
+                No trabajes en la rama de otro sin avisar<br>
+                main debe funcionar siempre
+            </p>
+        </div>
+
+        <div class="cta">
+            <p>
+git branch
+git branch nombre-rama
+git checkout nombre-rama
+git status
+git add .
+git commit -m "mensaje"
+git push origin nombre-rama
+git push -u origin nombre-rama
+git reset --soft HEAD~1
+git pull origin main
+            </p>
+        </div>
+    </main>
+
+</body>
+</html>

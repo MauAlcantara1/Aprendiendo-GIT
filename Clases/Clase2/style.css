@@ -1,0 +1,98 @@
+/* Configuración General con Fondo de Ingeniería */
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #e6edf3;
+    background-color: #0d1117;
+    background-image: 
+        linear-gradient(rgba(31, 38, 46, 0.7) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(31, 38, 46, 0.7) 1px, transparent 1px);
+    background-size: 30px 30px;
+}
+
+header {
+    background: linear-gradient(135deg, #161b22 0%, #21262d 100%);
+    color: #ffffff;
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 4px solid #f1502f;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.container {
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background: rgba(22, 27, 34, 0.95);
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+/* Sección Profesor - Estilo Terminal Verde */
+.info-profesor {
+    background: #000;
+    color: #00ff41;
+    padding: 1rem;
+    border-radius: 6px;
+    font-family: 'Courier New', monospace;
+    border-left: 4px solid #00ff41;
+    margin-bottom: 2rem;
+}
+
+h2 { color: #f1502f; border-bottom: 1px solid #30363d; padding-bottom: 10px; }
+
+/* Nueva Sección: Roles */
+.Roles { /* Ajustado para que coincida con tu clase HTML */
+    background: #21262d;
+    border-left: 4px solid #58a6ff;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+}
+.Roles p {
+    white-space: pre-line;
+    color: #58a6ff;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* SECCIÓN CONSEJOS: Ahora en Verde */
+.consejos {
+    background: rgba(46, 160, 67, 0.1); /* Fondo verde traslúcido */
+    border: 1px solid #2ea043; /* Borde verde oficial de GitHub */
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+.consejos p {
+    white-space: pre-line;
+    font-weight: 500;
+    color: #3fb950; /* Color verde brillante para lectura */
+}
+
+/* SECCIÓN TERMINAL (Comandos de Clase 2) */
+.cta {
+    background: #161b22;
+    border: 1px solid #484f58;
+    border-radius: 8px;
+    padding: 1.5rem;
+    position: relative;
+}
+.cta::before {
+    content: "bash — clase_02_ejercicios";
+    display: block;
+    background: #21262d;
+    margin: -1.5rem -1.5rem 1rem -1.5rem;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    color: #8b949e;
+    border-bottom: 1px solid #484f58;
+}
+.cta p {
+    font-family: 'Courier New', monospace;
+    color: #d1d5da;
+    white-space: pre-wrap;
+    margin: 0;
+}
