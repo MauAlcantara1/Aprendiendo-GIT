@@ -20,3 +20,29 @@ git reset --soft HEAD~1
 git config --global --unset credential.helper
 git config --global credential.helper "cache --timeout=3600"
 git config --global --unset credential.helper
+
+
+
+
+
+Comandos Clase 2:
+
+
+git branch
+git branch nombre-rama
+git checkout nombre-rama
+git status
+git add .
+git commit -m "mensaje"
+git push origin nombre-rama
+git push -u origin nombre-rama
+git reset --soft HEAD~1
+git pull origin main
+
+git branch nombre-rama
+git branch -d nombre-rama
+git branch -D nombre-rama
+
+git push origin --delete nombre-rama
+git branch -m nuevo-nombre
+git branch -m nombre-viejo nombre-nuevo
